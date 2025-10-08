@@ -2,7 +2,9 @@ import Child from "./Child"
 import ClassCom from "./Components/ClassCom"
 import Fun from "./Components/Fun"
 import Jsx from "./JSX/Jsx"
-import Parent from "./Props/Parent-Child/Parent"
+import Parent from "./Props/Child-Child/Parent"
+// import Parent from "./Props/Child-Parent/Parent"
+// import Parent from "./Props/Parent-Child/Parent"
 
 function App() {
   var name1 = 'kohli'
@@ -14,6 +16,8 @@ function App() {
     {/* {new ClassCom().render()} */}
     {/* {Fun()} */}
     {/* <Jsx/> */}
+    {/* <Parent/> */}
+    {/* <Parent/> */}
     <Parent/>
   </div>
 }
