@@ -6,7 +6,9 @@
 // import Parent from "./Props/Child-Parent/Parent"
 // import Parent from "./Props/Parent-Child/Parent"
 
-import A from "./4.State/Sync-Data/Global-State/Redux/react-components/A"
+import A from "./4.State/Sync-Data/Global-State/Redux-Toolkit/React-Components/A"
+
+// import A from "./4.State/Sync-Data/Global-State/Redux/react-components/A"
 
 // import A from "./4.State/Sync-Data/Global-State/Redux/A"
 
@@ -27,6 +29,7 @@ function App() {
     {/* <Parent/> */}
     {/* <Parent/> */}
     {/* <Parent/> */}
+    {/* <A/> */}
     {/* <A/> */}
     {/* <A/> */}
     {/* <A/> */}
