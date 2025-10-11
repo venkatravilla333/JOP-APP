@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import B from './B'
-import C from './C'
+import B from '../B'
+import C from '../C'
 
 export var nameContext = React.createContext()
 export var ageContext = React.createContext()
