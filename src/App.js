@@ -6,7 +6,9 @@
 // import Parent from "./Props/Child-Parent/Parent"
 // import Parent from "./Props/Parent-Child/Parent"
 
-import A from "./4.State/Sync-Data/Global-State/Context-Api/context-api-with-useReducer/A"
+import A from "./4.State/Async-Data/Local-State/useStateHook/A"
+
+// import A from "./4.State/Sync-Data/Global-State/Context-Api/context-api-with-useReducer/A"
 
 // import A from "./4.State/Sync-Data/Local-State/useReducerHook/A"
 
@@ -33,6 +35,7 @@ function App() {
     {/* <Parent/> */}
     {/* <Parent/> */}
     {/* <Parent/> */}
+    {/* <A/> */}
     {/* <A/> */}
     {/* <A/> */}
     {/* <A/> */}
