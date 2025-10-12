@@ -6,7 +6,17 @@
 // import Parent from "./Props/Child-Parent/Parent"
 // import Parent from "./Props/Parent-Child/Parent"
 
-import A from "./4.State/Async-Data/Local-State/useStateHook/A"
+import Container from "./7.Side-Effects/CleanUp/Container"
+
+// import Parent from "./7.Side-Effects/interact-with-browser/Parent"
+
+// import Parent from "./7.Side-Effects/Interact-with-dom/Parent"
+
+// import Parent from "./6.Map/Parent"
+
+// import Parent from "./5.Conditional-rendering/Parent"
+
+// import A from "./4.State/Async-Data/Local-State/useStateHook/A"
 
 // import A from "./4.State/Sync-Data/Global-State/Context-Api/context-api-with-useReducer/A"
 
@@ -42,7 +52,12 @@ function App() {
     {/* <A/> */}
     {/* <A/> */}
     {/* <A/> */}
-    <A/>
+    {/* <A/> */}
+    {/* <Parent/> */}
+    {/* <Parent/> */}
+    {/* <Parent/> */}
+    {/* <Parent/>/ */}
+    <Container/>
   </div>
 }
 
