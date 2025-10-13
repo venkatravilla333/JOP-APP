@@ -6,7 +6,14 @@
 // import Parent from "./Props/Child-Parent/Parent"
 // import Parent from "./Props/Parent-Child/Parent"
 
-import Container from "./7.Side-Effects/CleanUp/Container"
+import A from "./4.State/Async-Data/Global-State/Redux/react-components/A"
+
+// import A from "./4.State/Async-Data/Local-State/useStateHook/A"
+
+// import A from "./4.State/Async-Data/Global-State/Context-Api/context-api-with-useState/A"
+
+// import A from "./4.State/Async-Data/Local-State/useStateHook/A"
+// import Container from "./7.Side-Effects/CleanUp/Container"
 
 // import Parent from "./7.Side-Effects/interact-with-browser/Parent"
 
@@ -57,7 +64,9 @@ function App() {
     {/* <Parent/> */}
     {/* <Parent/> */}
     {/* <Parent/>/ */}
-    <Container/>
+    {/* <Container/> */}
+    {/* <A/> */}
+    <A/>
   </div>
 }
 
