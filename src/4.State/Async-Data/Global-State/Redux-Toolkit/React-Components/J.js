@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { store } from '../store'
 import { useDispatch, useSelector } from 'react-redux'
 import { buyCake, sellCake } from '../cakeSlice'
 import { buyCurd } from '../curdSlice'
+import { fetchPosts } from '../postsSlice'
 
 
 function J() {
@@ -14,9 +15,30 @@ function J() {
  var noOfCurds =  useSelector((state) => {
     return state.curdReducer.noOfCurds
  })
+ var data =  useSelector((state) => {
+    return state.postsReducer
+ })
+  
+  console.log(data)
+  
+  useEffect(() => {
+    dispatch(fetchPosts())
+  }, [])
   
   return (
     <div>
+      <h3>Posts</h3>
+      {
+        data.loading ? <h2>Loading</h2> : data.error ? <h3>{data.error}</h3> :
+          data.posts.map((post) => {
+            return <div key={post.id} style={{border:"2px solid red", margin: "15px", padding:"20px"}}>
+              <p>Id: {post.id}</p>
+              <p>UserId: {post.userId}</p>
+              <p>Title: {post.title}</p>
+              <p>Body: {post.body}</p>
+            </div>
+          })
+      }
       <h2>J: Cakes: {noOfcakes}</h2>
       <button onClick={()=>dispatch(buyCake())}>Buycake</button>
       <button onClick={()=>dispatch(sellCake())}>Sellcake</button>

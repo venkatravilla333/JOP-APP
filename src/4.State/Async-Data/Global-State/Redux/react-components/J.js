@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { store } from '../store'
 import { useDispatch, useSelector } from 'react-redux'
 import { buyCake, sellCake } from '../cake/actionCreator'
@@ -18,14 +18,18 @@ function J() {
     return state.posts
  })
   
-  function getdata() {
+  // function getdata() {
+  //   dispatch(fetchPosts())
+  // }
+
+  useEffect(() => {
     dispatch(fetchPosts())
-  }
+  }, [])
   
   return (
     <div>
       <h2>Data from api</h2>
-      <button onClick={getdata}>get data</button>
+      {/* <button onClick={getdata}>get data</button> */}
 
       {
         data.loading ? <h1>Loading</h1> : data.error ? <h2>{data.error}</h2> :
