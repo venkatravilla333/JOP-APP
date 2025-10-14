@@ -9,6 +9,7 @@
 // import Login from "./9.CSS/Module/Login"
 // import Register from "./9.CSS/Module/Register"
 
+import Parent from "./10.Portals/Parent"
 import Dynamic from "./9.CSS/Dynamic"
 import Login from "./9.CSS/External/Login"
 import Register from "./9.CSS/External/Register"
@@ -91,8 +92,8 @@ function App() {
     <Register/> */}
     {/* <Login/>
     <Register/> */}
-    <Dynamic/>
-    
+    {/* <Dynamic/> */}
+    <Parent/>
   </div>
 }
 
