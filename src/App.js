@@ -10,10 +10,12 @@
 // import Register from "./9.CSS/Module/Register"
 
 import Parent from "./10.Portals/Parent"
+import Controlled from "./11.Refs/Controlled"
 import Storage from "./11.Refs/Storage"
 import Element from "./11.Refs/Store-Dom-Element/Element"
 import ReferValue from "./11.Refs/Store-Value/ReferValue"
 import StoreValue from "./11.Refs/Store-Value/ReferValue"
+import Uncontrolled from "./11.Refs/Uncontrolled"
 import Dynamic from "./9.CSS/Dynamic"
 import Login from "./9.CSS/External/Login"
 import Register from "./9.CSS/External/Register"
@@ -100,7 +102,9 @@ function App() {
     {/* <Parent/> */}
     {/* <Storage/> */}
     {/* <Element/> */}
-    <ReferValue/>
+    {/* <ReferValue/> */}
+    <Controlled />
+    <Uncontrolled/>
   </div>
 }
 
