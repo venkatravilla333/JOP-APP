@@ -6,6 +6,8 @@ import {Routes, Route} from 'react-router-dom'
 
 import './style.css'
 import Header from './Header'
+import Products from './Products'
+import ProductDetails from './ProductDetails'
 function Home() {
 
   return (
@@ -15,6 +17,9 @@ function Home() {
         <Route path='/about' element={<About/> } />
         <Route path='/profile' element={<Profile/> } />
         <Route path='/contact' element={<Contact/> } />
+        <Route path='/products' element={<Products/> } >
+          <Route path=':id' element={<ProductDetails />} />
+        </Route>
       </Routes>
       
     </div>
