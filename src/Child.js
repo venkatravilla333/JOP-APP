@@ -1,7 +1,10 @@
 
 function Child() {
+  function update(name) {
+    console.log('update', name)
+  }
   return (
-    <div>Child</div>
+    <button onClick={()=>update('sachin')}>click</button>
   )
 }
 
