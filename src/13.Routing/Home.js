@@ -22,7 +22,8 @@ function Home() {
       {/* <Header/> */}
       {url.pathname != '/profile' && <Header/>}
       <Routes>
-        <Route path='/' element={<Login/> } />
+        <Route>
+        <Route index element={<Login/> } />
         <Route path='/about' element={<React.Suspense fallback='Loading'>
           <About/>
           </React.Suspense>} />
@@ -31,6 +32,7 @@ function Home() {
         <Route path='/contact' element={<Contact/> } />
         <Route path='/products' element={<Products/> } >
           <Route path=':id' element={<ProductDetails />} />
+        </Route>
         </Route>
       </Routes>
       
