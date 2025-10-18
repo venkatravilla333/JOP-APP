@@ -6,24 +6,26 @@
 // import Parent from "./Props/Child-Parent/Parent"
 // import Parent from "./Props/Parent-Child/Parent"
 
+import Parent from "./13.VirtualDom/Parent"
+
 // import Login from "./9.CSS/Module/Login"
 // import Register from "./9.CSS/Module/Register"
 
-import Parent from "./10.Portals/Parent"
-import Controlled from "./11.Refs/Controlled"
-import Storage from "./11.Refs/Storage"
-import Element from "./11.Refs/Store-Dom-Element/Element"
-import ReferValue from "./11.Refs/Store-Value/ReferValue"
-import StoreValue from "./11.Refs/Store-Value/ReferValue"
-import Uncontrolled from "./11.Refs/Uncontrolled"
-import Count1 from "./12.How-to-remove-duplicate-logic/Count1"
-import Count2 from "./12.How-to-remove-duplicate-logic/Count2"
-import Count3 from "./12.How-to-remove-duplicate-logic/Count3"
-import Home from "./13.Routing/Home"
-import Dynamic from "./9.CSS/Dynamic"
-import Login from "./9.CSS/External/Login"
-import Register from "./9.CSS/External/Register"
-import Child from "./Child"
+// import Parent from "./10.Portals/Parent"
+// import Controlled from "./11.Refs/Controlled"
+// import Storage from "./11.Refs/Storage"
+// import Element from "./11.Refs/Store-Dom-Element/Element"
+// import ReferValue from "./11.Refs/Store-Value/ReferValue"
+// import StoreValue from "./11.Refs/Store-Value/ReferValue"
+// import Uncontrolled from "./11.Refs/Uncontrolled"
+// import Count1 from "./12.How-to-remove-duplicate-logic/Count1"
+// import Count2 from "./12.How-to-remove-duplicate-logic/Count2"
+// import Count3 from "./12.How-to-remove-duplicate-logic/Count3"
+// import Home from "./13.Routing/Home"
+// import Dynamic from "./9.CSS/Dynamic"
+// import Login from "./9.CSS/External/Login"
+// import Register from "./9.CSS/External/Register"
+// import Child from "./Child"
 // import Inline from "./9.CSS/Inline/Inline"
 
 // import A from "./4.State/Async-Data/Global-State/Context-Api/context-api-with-useReducer/A"
@@ -114,7 +116,9 @@ function App() {
     {/* <Count1 />
     <Count2 />
     <Count3 /> */}
-    <Home/>
+    {/* <Home/> */}
+    <Parent/>
+  
   </div>
 }
 
