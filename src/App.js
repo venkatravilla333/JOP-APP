@@ -6,7 +6,11 @@
 // import Parent from "./Props/Child-Parent/Parent"
 // import Parent from "./Props/Parent-Child/Parent"
 
-import A from "./Class-Components/state/globalState/contentApi/React-Components/A"
+import Parent from "./Class-Components/destructuring/Parent"
+
+// import A from "./Class-Components/state/globalState/Redux/React-Components/A"
+
+// import A from "./Class-Components/state/globalState/contentApi/React-Components/A"
 // import Parent from "./Class-Components/state/localState/Parent"
 
 // import Parent from "./Class-Components/Parent"
@@ -125,7 +129,9 @@ function App() {
     {/* <Parent/> */}
     {/* <Parent/> */}
     {/* <Parent/> */}
-    <A/>
+    {/* <A/> */}
+    {/* <A/> */}
+    <Parent/>
   </div>
 }
 
