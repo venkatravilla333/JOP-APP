@@ -6,7 +6,12 @@
 // import Parent from "./Props/Child-Parent/Parent"
 // import Parent from "./Props/Parent-Child/Parent"
 
-import Parent from "./13.VirtualDom/Parent"
+import A from "./Class-Components/state/globalState/contentApi/React-Components/A"
+// import Parent from "./Class-Components/state/localState/Parent"
+
+// import Parent from "./Class-Components/Parent"
+
+// import Parent from "./13.VirtualDom/Parent"
 
 // import Login from "./9.CSS/Module/Login"
 // import Register from "./9.CSS/Module/Register"
@@ -117,8 +122,10 @@ function App() {
     <Count2 />
     <Count3 /> */}
     {/* <Home/> */}
-    <Parent/>
-  
+    {/* <Parent/> */}
+    {/* <Parent/> */}
+    {/* <Parent/> */}
+    <A/>
   </div>
 }
 
